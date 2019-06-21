@@ -1,0 +1,11 @@
+<% for i in 0..6 do %>
+<div class="grid-container">
+ <img src="<%= @allFriendsPicture[i]%>">
+ <div>
+   <p><%= @allFriend[i] %></p>
+   <p><%= @allFriendsPhone[i] %></p>
+   <p><%= @allFriendsAddress[i] %></p>
+   <p><%= @allFriendsJob[i] %></p>
+ </div>
+</div>
+<% end %>

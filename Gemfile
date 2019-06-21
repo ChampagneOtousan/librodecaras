@@ -1,3 +1,4 @@
 source "https://rubygems.org"
-require "sinatra"
-require "faker"
+
+gem "sinatra"
+gem "faker"
